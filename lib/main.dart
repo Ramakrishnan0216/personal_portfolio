@@ -37,7 +37,13 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
-        child: Text("Hi im ramakrishnan"),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text("Hi im Ramakrishnan"),
+            Text("How are You!"),
+          ],
+        ),
       ),
       // This trailing comma makes auto-formatting nicer for build methods.
     );
