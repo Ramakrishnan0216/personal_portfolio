@@ -18,9 +18,9 @@ jobs:
       - run: flutter config --enable-web
       - run: flutter pub get
       - run: flutter build web --release --web-renderer html
-      - run: sed -i -e  "s#\<base href=\"/\"\>#\<base href=\"/personal_portfolio\"\>#g" index.html
       - run: |
           cd build/web
+          sed -i -e  "s#\<base href=\"/\"\>#\<base href=\"/personal_portfolio\"\>#g" index.html
           git init
           git config --global user.email raviraj199602@gmail.com
           git config --global user.name Ramakrishnan0216
