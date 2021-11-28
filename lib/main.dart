@@ -40,8 +40,8 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Text("Hi im Ramakrishnan"),
-            Text("How are You! today"),
+            Text("Hi im Ravichandran Ramakrishnan"),
+            Text("How are You! today i'm good here"),
           ],
         ),
       ),
